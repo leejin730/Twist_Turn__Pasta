@@ -1,0 +1,552 @@
+body{
+    margin: 0% ;
+    background-color:#fff7d1
+}
+
+.header{
+    background-color: rgb(214, 54, 54);
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: center;  /* 가로로 가운데 정렬 */
+    align-items: center;  /* 세로로 가운데 정렬 */
+    flex-direction: column;  /* 이미지와 텍스트를 세로로 배치 */
+    text-align: center;  /* 텍스트 가운데 정렬 */
+    
+}
+
+
+.header-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* 이미지 크기를 화면에 맞게 조정 */
+    height: auto;
+    margin-bottom: 20px; /* 타이틀과 이미지 사이 간격 */
+}
+
+.header-text {
+    margin-top: 10px;
+    color: #ffe45d;  /* 텍스트 색상 */
+    font-size: 0.8rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 텍스트 간격 */
+    max-width: 80%;  /* 텍스트의 최대 너비 제한 */
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.order-text {
+    text-align: center;  /* 텍스트 가운데 정렬 */
+    color: rgb(214, 54, 54);  /* 텍스트 색상 빨간색 */
+    font-size: 2rem;  /* 텍스트 크기 */
+    font-weight: bold;  /* 텍스트 두껍게 */
+    margin-top: 150px;  /* 위쪽 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-tag {
+    display: block;
+    margin: 80px auto 0 auto;
+    max-width: 30%;  /* 이미지 크기 조정 */
+    height: auto;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.Rotelle {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Rotelle h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.order-rotelle {
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+    transition: 0.3s ease-in-out;
+}
+
+.order-rotelle:hover {
+    content: url('image/Rotelle piece.png'); /* 호버 시 변경 이미지 */
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.order-conchiglie {
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Conchiglie {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Conchiglie h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-conchiglie:hover {
+    content: url('image/Conchiglie piece.png');
+}
+
+
+.order-Gramigna{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Gramigna {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Gramigna h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Gramigna:hover {
+    content: url('image/Gramigna piece.png');
+}
+
+.order-Gemell{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Gemell {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Gemell h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Gemell:hover {
+    content: url('image/Gemell_p.png');
+}
+
+.order-Radiatori{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Radiatori {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Radiatori h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Radiatori:hover {
+    content: url('image/Radiatori_p.png');
+}
+
+.order-Creste{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Creste {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Creste h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Creste:hover {
+    content: url('image/Creste_di_gallo_P.png');
+}
+
+.order-Orecchiette{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Orecchiette {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Orecchiette h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Orecchiette:hover {
+    content: url('image/Orecchiette_P.png');
+}
+
+.order-sagne{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.sagne {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sagne h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-sagne:hover {
+    content: url('image/Sagne_a_pezzi_P.png');
+}
+
+.order-Stelline{
+    display: block;
+    margin-left: 20px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 160px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Stelline {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: right;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 100px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Stelline h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Stelline:hover {
+    content: url('image/Stelline piece.png');
+}
+
+.order-Orzo{
+    display: block;
+    margin-left: 20px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 160px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Orzo {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: right;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 100px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Orzo h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Orzo:hover {
+    content: url('image/Orzo_p.png');
+}
+
+
+
+.order-Tortellini{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Tortellini {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Tortellini h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Tortellini:hover {
+    content: url('image/Tortellini_p.png');
+}
+
+.order-Raviol{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Raviol {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Raviol h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Raviol:hover {
+    content: url('image/Ravioli piece.png');
+}
+
+.order-Mezzelune{
+    display: block;
+    margin-left: 200px;   /* 왼쪽 여백을 자동으로 설정하여 오른쪽 정렬 */
+    margin-right: 20px;     /* 오른쪽 여백을 0으로 설정 */
+    max-width: 20%;      /* 이미지 크기를 더 작게 설정 */
+    height: auto;
+    margin-top: 55px;
+}
+
+.Mezzelune {
+    color: rgb(0, 34, 183);  /* 텍스트 색상 */
+    font-size: 1.1rem;  /* 텍스트 크기 */
+    line-height: 1.4;  /* 줄 간격 */
+    text-align: left;  /* 텍스트 오른쪽 정렬 */
+    margin-left: 20px;  /* 텍스트와 이미지 사이 간격 */ 
+    flex: 1;
+    font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Mezzelune h2 {
+    font-size: 2.5rem;  /* 제목 크기 */
+    margin-bottom: 10px;  /* 제목과 본문 간 간격 */
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.order-Mezzelune:hover {
+    content: url('image/Mezzelune_p.png');
+}
+
+
+/* 썸네일 이미지 스타일 */
+.thumbnail {
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* 팝업 창 스타일 */
+.popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border: 2px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 팝업 내부 이미지 스타일 */
+.popup img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.footer-image {
+    width: 100%; /* 이미지 크기 조정 */
+   
+}
